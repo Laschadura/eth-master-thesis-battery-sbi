@@ -20,18 +20,16 @@ from current-voltage measurements using amortized Bayesian inference trained ent
 
 Battery state estimation is inherently uncertain and often ill-posed. Different combinations of battery states and parameters can produce nearly identical voltage trajectories, especially under dynamic operating conditions.
 
-This thesis explores simulation-based inference (SBI) as a probabilistic alternative to classical deterministic approaches such as Kalman filtering.
+This thesis explores simulation-based inference (SBI) as a probabilistic alternative to classical deterministic approaches.
 
 The proposed framework combines:
 
 - Equivalent Circuit Models (ECMs)
-- Synthetic battery trajectory simulation
-- Neural Posterior Estimation (NPE)
-- Conditional Normalizing Flows
+- A Neural Posterior Estimator (NPE) with Conditional Normalizing Flows
 - Bayesian uncertainty quantification
 - Sequential posterior propagation
 
-The approach enables fast amortized inference after training while maintaining calibrated posterior uncertainty estimates.
+The approach enables fast amortized inference after training offline on millions of simulated datasets while maintaining calibrated posterior uncertainty estimates.
 
 ---
 
@@ -76,7 +74,7 @@ Compared to Sequential Monte Carlo Approximate Bayesian Computation (SMC-ABC), t
 ### Machine Learning
 - Neural Posterior Estimation (NPE)
 - Conditional Normalizing Flows
-- Sequential Bayesian inference
+- Sequential inference
 - Simulation-Based Calibration (SBC)
 - Posterior Predictive Checks (PPC)
 

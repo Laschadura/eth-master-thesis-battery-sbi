@@ -1,6 +1,3 @@
-# eth-master-thesis-battery-sbi
-ETH Zürich &amp; ABB master thesis on probabilistic battery state estimation using simulation-based inference, normalizing flows, and amortized Bayesian inference.
-
 # Fast Evaluation of Battery States using Physical Simulations and Simulation-Based Statistical Inference with Normalizing Flows
 
 Master thesis conducted at ETH Zürich in collaboration with ABB Corporate Research.

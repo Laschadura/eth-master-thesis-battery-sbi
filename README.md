@@ -119,4 +119,3 @@ Simon Scandella
 M.Sc. Mechanical Engineering, ETH Zürich  
 Machine Learning & Energy Systems  
 Zürich, Switzerland
-Zürich, Switzerland

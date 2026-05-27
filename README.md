@@ -116,6 +116,7 @@ The implementation code is not publicly available due to intellectual property r
 ## Author
 
 Simon Scandella  
-ETH Zürich — Mechanical Engineering  
+M.Sc. Mechanical Engineering, ETH Zürich  
 Machine Learning & Energy Systems  
+Zürich, Switzerland
 Zürich, Switzerland
